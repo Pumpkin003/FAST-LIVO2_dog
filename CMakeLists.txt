@@ -101,7 +101,7 @@ find_package(Boost REQUIRED COMPONENTS thread)
 
 set(Sophus_LIBRARIES libSophus.so)
 # 指定路径
-set(Sophus_LIBRARIES    "/usr/local/sophus-legacy/lib/libSophus.so")
+set(Sophus_LIBRARIES    "/usr/local/lib/libSophus.so")
 
 # Define the catkin package
 catkin_package(
